@@ -1,32 +1,72 @@
 {
-  " client ": {
-    " host ": "10.101.53.35"
-  } ,
-  " server ": {
-    " current_time ": 1531680780 ,
-    " services ": [{
-      " name ": " weather " ,
-      " widgets ": [{
-        " name ": " city_temperature " ,
-        " description ": " Display temperature for a city " ,
-        " params ": [{
-          " name ": " city " ,
-          " type ": " string "
-        }]
-      }]
-    } , {
-      " name ": " rss " ,
-      " widgets ": [{
-        " name ": " article_list " ,
-        " description ": " Displaying the list of the last articles " ,
-        " params ": [{
-          " name ": " link " ,
-          " type ": " string "
-        }
-          " name ": " number " ,
-          " type ": " integer "
-        }]
-      }]
-    }]
+  "client": {
+    "host": "10.101.53.35"
+  },
+  "server": {
+    " current_time ": 1531680780,
+    " services ": [
+      {
+        " name ": " weather ",
+        " widgets ": [
+          {
+            " name ": " city_temperature ",
+            " description ": " Display temperature for a city ",
+            " params ": [
+              {
+                " name ": " city ",
+                " type ": " string "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        " name ": " time ",
+        " widgets ": [
+          {
+            " name ": " timeWidget ",
+            " description ": " Displaying city timezone ",
+            " params ": [
+              {
+                " name ": " city ",
+                " type ": " string "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        " name ": " exchange ",
+        " widgets ": [
+          {
+            " name ": " exchangeWidget ",
+            " description ": " Displaying the list of the last articles ",
+            " params ": [
+              {
+                " currency_from ": " USD ",
+                " currency_to ": "EURO",
+                " type ": " string "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        " name ": " youtube ",
+        " widgets ": [
+          {
+            " name ": " youtubeWidget ",
+            " description ": " Displaying youtube information ",
+            " params ": [
+              {
+                " youtube_channel_id ": " string ",
+                " youtube_video_id ": "string",
+                " type ": " string "
+              }
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
