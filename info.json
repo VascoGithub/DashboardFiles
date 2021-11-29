@@ -3,14 +3,14 @@
 		"host":"10.101.53.35"
 	},
 	"server": {
-		"current_time": 1531680780,
+		"current_time": 123123123,
 		"services": [
 			{
 				"name":"weather",
 				"widgets": [
 					{
-						"name":"city_temperature",
-						"description":"Display temperature for a city",
+						"name":"New York",
+						"description":"Display temperature for new york",
 						"arams": [
 							{
 								"name":"city",
