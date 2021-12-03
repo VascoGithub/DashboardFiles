@@ -9,7 +9,7 @@
 				"name":"weather",
 				"widgets": [
 					{
-						"name":"New York",
+						"name":"city_temperature",
 						"description":"Display temperature for new york",
 						"arams": [
 							{
@@ -24,7 +24,7 @@
 				"name":"time",
 				"widgets": [
 					{
-						"name":"timeWidget",
+						"name":"city_time",
 						"description":"Displaying city timezone",
 						"params": [
 							{
@@ -39,8 +39,8 @@
 				"name":"exchange",
 				"widgets": [
 					{
-						"name":"exchangeWidget",
-						"description":"Displaying the list of the last articles",
+						"name":"exchange_to_from",
+						"description":"Change from a currency to another currency",
 						"params": [
 							{
 								"currency_from":"USD",
@@ -55,7 +55,7 @@
 				"name":"youtube",
 				"widgets": [
 					{
-						"name":"youtubeWidget",
+						"name":"youtube_info",
 						"description":"Displaying youtube information",
 						"params": [
 							{
