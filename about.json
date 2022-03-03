@@ -1,72 +1,52 @@
 {
-	"client": {
-		"host":"10.101.53.35"
-	},
-	"server": {
-		"current_time": 123123123,
-		"services": [
-			{
-				"name":"weather",
-				"widgets": [
-					{
-						"name":"city_temperature",
-						"description":"Display temperature for new york",
-						"arams": [
-							{
-								"name":"city",
-								"type":"string"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name":"time",
-				"widgets": [
-					{
-						"name":"city_time",
-						"description":"Displaying city timezone",
-						"params": [
-							{
-								"name":"city",
-								"type":"string"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name":"exchange",
-				"widgets": [
-					{
-						"name":"exchange_to_from",
-						"description":"Change from a currency to another currency",
-						"params": [
-							{
-								"currency_from":"USD",
-								"currency_to":"EURO",
-								"type":"string"
-							}
-						]
-					}
-				]
-			},
-			{
-				"name":"youtube",
-				"widgets": [
-					{
-						"name":"youtube_info",
-						"description":"Displaying youtube information",
-						"params": [
-							{
-								"youtube_channel_id":"string",
-								"youtube_video_id":"string",
-								"type":"string"
-							}
-						]
-					}
-				]
-			}
-		]
-	}
+  " client ": {
+    " host ": "10.101.53.35"
+  },
+  " server ": {
+    " current_time ": 1531680780,
+    " services ": [
+      {
+        " name ": " facebook ",
+        " actions ": [
+          {
+            " name ": " new_message_in_group ",
+            " description ": " A new message is posted in the group "
+          },
+          {
+            " name ": " new_message_inbox ",
+            " description ": " A new private message is received by the user "
+          },
+          {
+            " name ": " new_like ",
+            " description ": " The user gains a like from one of their messages "
+          }
+        ],
+        " reactions ": [
+          {
+            " name ": " like_message ",
+            " description ": " The user likes a message "
+          }
+        ]
+      },
+      {
+        " name ": " intra ",
+        " actions ": [
+          {
+            " name ": " new_project_subscription ",
+            " description ": " The user signs up for a project "
+          }
+        ],
+        " reactions ": [
+          {
+            " name ": " activity_subscribe ",
+            " description ": " The user signs up for an activity "
+          },
+          {
+            " name ": " module_subscribe ",
+            " description ": " The user signs up for a unit "
+          }
+        ]
+      }
+    ]
+  }
 }
