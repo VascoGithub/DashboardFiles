@@ -1,49 +1,57 @@
 {
-  " client ": {
-    " host ": "10.101.53.35"
+  "client": {
+    "host": "10.101.53.35"
   },
-  " server ": {
-    " current_time ": 1531680780,
-    " services ": [
+  "server": {
+    "current_time": 1531680780,
+    "services": [
       {
-        " name ": " facebook ",
-        " actions ": [
+        "name": " twitter ",
+        "actions": [
           {
-            " name ": " new_message_in_group ",
-            " description ": " A new message is posted in the group "
+            "name": " new_message_in_group ",
+            "description": " A new message is posted in the group "
           },
           {
-            " name ": " new_message_inbox ",
-            " description ": " A new private message is received by the user "
+            "name": " new_message_inbox ",
+            "description": " A new private message is received by the user "
           },
           {
-            " name ": " new_like ",
-            " description ": " The user gains a like from one of their messages "
+            "name": " new_like ",
+            "description": " The user gains a like from one of their messages "
           }
         ],
         " reactions ": [
           {
-            " name ": " like_message ",
-            " description ": " The user likes a message "
+            "name": " tweet ",
+            "description": " Post a tweet "
+          },
+          {
+            "name": " find ",
+            "description": " Find a tweet "
+          },
+          {
+            "name ": " add_user_to_list ",
+            "description": " Add a user to a list "
           }
         ]
       },
       {
-        " name ": " intra ",
-        " actions ": [
+        "name": "intra",
+        "actions": [
           {
-            " name ": " new_project_subscription ",
-            " description ": " The user signs up for a project "
+            "name": " new_project_subscription ",
+            "description": " The user signs up for a project "
           }
         ],
-        " reactions ": [
+        "reactions": [
           {
-            " name ": " activity_subscribe ",
-            " description ": " The user signs up for an activity "
+            "name": " activity_subscribe ",
+            "description": " The user signs up for an activity "
           },
           {
-            " name ": " module_subscribe ",
-            " description ": " The user signs up for a unit "
+            "name": " module_subscribe ",
+            "description": " The user signs up for a unit "
           }
         ]
       }
