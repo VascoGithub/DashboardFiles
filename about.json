@@ -6,7 +6,7 @@
     "current_time": 1531680780,
     "services": [
       {
-        "name": " twitter ",
+        "name": "twitter",
         "actions": [
           {
             "name": " new_message_in_group ",
