@@ -4,6 +4,7 @@
   },
   "server": {
     "current_time": 1531680780,
+    "services_amount": 2,
     "services": [
       {
         "name": "twitter",
