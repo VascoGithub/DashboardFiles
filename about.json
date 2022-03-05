@@ -41,18 +41,32 @@
         "name": "intra",
         "actions": [
           {
-            "name": " new_project_subscription ",
-            "description": " The user signs up for a project "
+            "name": "timeLeft",
+            "description": "the user has less than h hour to finish the project",
+            "arguments": [
+              {
+                "project_name": "Type your project name",
+                "time_when": "How many hours before shall we remind you"
+              }
+            ]
+          },
+          {
+            "name": "grades",
+            "description": "the user has the garde of a module x uploaded"
+          },
+          {
+            "name": "modules",
+            "description": "there is a new module available"
           }
         ],
         "reactions": [
           {
-            "name": " activity_subscribe ",
-            "description": " The user signs up for an activity "
+            "name": "registerProject",
+            "description": "the user registers to a project"
           },
           {
-            "name": " module_subscribe ",
-            "description": " The user signs up for a unit "
+            "name": "registerModule",
+            "description": "the user registers to a module"
           }
         ]
       }
