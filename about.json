@@ -57,12 +57,8 @@
             "description": " Post a tweet ",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
-              },
-              {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "message ",
+                "description": "The message to be posted"
               }
             ]
           },
