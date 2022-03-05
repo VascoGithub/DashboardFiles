@@ -9,8 +9,8 @@
         "name": "twitter",
         "actions": [
           {
-            "name": " new_message_in_group ",
-            "description": " A new message is posted in the group ",
+            "name": "new_message_in_group",
+            "description": "A new message is posted in the group",
             "arguments": [
               {
                 "name": "1 ",
@@ -31,62 +31,62 @@
                 "description": "1-1"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "2",
+                "description": "2-2"
               }
             ]
           },
           {
-            "name": " new_like ",
-            "description": " The user gains a like from one of their messages ",
+            "name": "new_like",
+            "description": "The user gains a like from one of their messages",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           }
         ],
         "reactions": [
           {
-            "name": " tweet ",
-            "description": " Post a tweet ",
+            "name": "tweet",
+            "description": "Post a tweet",
             "arguments": [
               {
-                "name": "message ",
+                "name": "message",
                 "description": "The message to be posted"
               }
             ]
           },
           {
-            "name": " find ",
-            "description": " Find a tweet ",
+            "name": "find",
+            "description": "Find a tweet",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           },
           {
-            "name ": " add_user_to_list ",
-            "description": " Add a user to a list ",
+            "name ": "add_user_to_list",
+            "description": "Add a user to a list",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           }
@@ -104,7 +104,7 @@
                 "description": "The project name"
               },
               {
-                "name": "time_left ",
+                "name": "time_left",
                 "description": "Time in hours to remind you of the"
               }
             ]
@@ -114,12 +114,12 @@
             "description": "the user has the garde of a module x uploaded",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           },
@@ -128,12 +128,12 @@
             "description": "there is a new module available",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           }
@@ -145,11 +145,11 @@
             "arguments": [
               {
                 "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           },
@@ -158,12 +158,12 @@
             "description": "the user registers to a module",
             "arguments": [
               {
-                "name": "new_message_in_group ",
-                "description": " A new message is posted in the group "
+                "name": "new_message_in_group",
+                "description": "A new message is posted in the group"
               },
               {
-                "name": "new_message_inbox ",
-                "description": " A new private message is received by the user"
+                "name": "new_message_inbox",
+                "description": "A new private message is received by the user"
               }
             ]
           }
