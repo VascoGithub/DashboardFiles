@@ -22,7 +22,7 @@
             "description": " The user gains a like from one of their messages "
           }
         ],
-        " reactions ": [
+        "reactions": [
           {
             "name": " tweet ",
             "description": " Post a tweet "
