@@ -4,36 +4,95 @@
   },
   "server": {
     "current_time": 1531680780,
-    "services_amount": 2,
     "services": [
       {
         "name": "twitter",
         "actions": [
           {
             "name": " new_message_in_group ",
-            "description": " A new message is posted in the group "
+            "description": " A new message is posted in the group ",
+            "arguments": [
+              {
+                "name": "1 ",
+                "description": "1-1"
+              },
+              {
+                "name": "2 ",
+                "description": "2-2"
+              }
+            ]
           },
           {
             "name": " new_message_inbox ",
-            "description": " A new private message is received by the user "
+            "description": "A new private message is received by the user",
+            "arguments": [
+              {
+                "name": "1",
+                "description": "1-1"
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           },
           {
             "name": " new_like ",
-            "description": " The user gains a like from one of their messages "
+            "description": " The user gains a like from one of their messages ",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           }
         ],
         "reactions": [
           {
             "name": " tweet ",
-            "description": " Post a tweet "
+            "description": " Post a tweet ",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           },
           {
             "name": " find ",
-            "description": " Find a tweet "
+            "description": " Find a tweet ",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           },
           {
             "name ": " add_user_to_list ",
-            "description": " Add a user to a list "
+            "description": " Add a user to a list ",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           }
         ]
       },
@@ -45,28 +104,72 @@
             "description": "the user has less than h hour to finish the project",
             "arguments": [
               {
-                "project_name": "Type your project name",
-                "time_when": "How many hours before shall we remind you"
+                "name": "project_name",
+                "description": "The project name"
+              },
+              {
+                "name": "time_left ",
+                "description": "Time in hours to remind you of the"
               }
             ]
           },
           {
             "name": "grades",
-            "description": "the user has the garde of a module x uploaded"
+            "description": "the user has the garde of a module x uploaded",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           },
           {
             "name": "modules",
-            "description": "there is a new module available"
+            "description": "there is a new module available",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           }
         ],
         "reactions": [
           {
             "name": "registerProject",
-            "description": "the user registers to a project"
+            "description": "the user registers to a project",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           },
           {
             "name": "registerModule",
-            "description": "the user registers to a module"
+            "description": "the user registers to a module",
+            "arguments": [
+              {
+                "name": "new_message_in_group ",
+                "description": " A new message is posted in the group "
+              },
+              {
+                "name": "new_message_inbox ",
+                "description": " A new private message is received by the user"
+              }
+            ]
           }
         ]
       }
