@@ -77,7 +77,7 @@
             ]
           },
           {
-            "name ": "add_user_to_list",
+            "name": "add_user_to_list",
             "description": "Add a user to a list",
             "arguments": [
               {
