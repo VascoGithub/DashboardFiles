@@ -23,7 +23,7 @@
             ]
           },
           {
-            "name": " new_message_inbox ",
+            "name": "new_message_inbox",
             "description": "A new private message is received by the user",
             "arguments": [
               {
