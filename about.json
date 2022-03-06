@@ -93,7 +93,7 @@
         ]
       },
       {
-        "name": "intra",
+        "name": "intranet",
         "actions": [
           {
             "name": "timeLeft",
