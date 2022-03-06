@@ -168,6 +168,73 @@
             ]
           }
         ]
+      },
+      {
+        "name": "spotify",
+        "actions": [
+          {
+            "name": "getPlaylist",
+            "description": "a new playlist is saved/created"
+          },
+          {
+            "name": "getTracks",
+            "description": "a new track is saved in playlist"
+          },
+          {
+            "name": "getNewPlaylistTrack",
+            "description": "a new track is saved in playlist",
+            "arguments": [
+              {
+                "name": "playlist",
+                "description": "playlist name to check"
+              }
+            ]
+          }
+        ],
+        "reactions": [
+          {
+            "name": "createPlaylist",
+            "description": "the user creates a new playlist",
+            "arguments": [
+              {
+                "name": "playlist",
+                "description": "new playlist name"
+              }
+            ]
+          },
+          {
+            "name": "saveTrack",
+            "description": "the user saves a track into his library",
+            "arguments": [
+              {
+                "name": "trackname",
+                "description": "Track you want to save"
+              },
+              {
+                "name": "Author",
+                "description": "Track author"
+              }
+            ]
+          },
+          {
+            "name": "saveTrackPlaylist",
+            "description": "the user saves a track into playlist",
+            "arguments": [
+              {
+                "name": "trackname",
+                "description": "Track you want to save"
+              },
+              {
+                "name": "author",
+                "description": "Track author"
+              },
+              {
+                "name": "playlist",
+                "description": "Playlist name "
+              }
+            ]
+          }
+        ]
       }
     ]
   }
