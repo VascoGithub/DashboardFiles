@@ -270,6 +270,58 @@
             ]
           }
         ]
+      },
+      {
+        "name": "telegram",
+        "actions ": [
+          {
+            "name": "getMessage",
+            "description ": "Gets a json with all the information of the lastest message"
+          }
+        ],
+        "reactions ": [
+          {
+            "name": "sendmessage",
+            "description ": "Send a message to the user trough chat",
+            "arguments": [
+              {
+                "name": "message",
+                "description": "The message to send"
+              }
+            ]
+          },
+          {
+            "name": "getUserInfo",
+            "description ": "Get a string with some information about the user, format: Name SecondName Username"
+          },
+          {
+            "name": "getBotInfo",
+            "description ": "Get a string with the name of the bot, format: Username"
+          }
+        ]
+      },
+      {
+        "name": "email",
+        "reactions ": [
+          {
+            "name": "send",
+            "description ": "Send an email",
+            "arguments": [
+              {
+                "name": "receivers",
+                "description": "Format is: email@email.com, email@email.com (as many as wanted separated by a coma and a space)"
+              },
+              {
+                "name": "message",
+                "description": "Message string"
+              },
+              {
+                "name": "subject",
+                "description": "Subject of the main, string"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
