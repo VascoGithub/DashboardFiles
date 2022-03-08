@@ -189,13 +189,13 @@
         "actions": [
           {
             "name": "getMessage",
-            "description ": "Gets a json with all the information of the lastest message"
+            "description": "Gets a json with all the information of the lastest message"
           }
         ],
         "reactions": [
           {
             "name": "sendmessage",
-            "description ": "Send a message to the user trough chat",
+            "description": "Send a message to the user trough chat",
             "arguments": [
               {
                 "name": "message",
@@ -205,11 +205,11 @@
           },
           {
             "name": "getUserInfo",
-            "description ": "Get a string with some information about the user, format: Name SecondName Username"
+            "description": "Get a string with some information about the user, format: Name SecondName Username"
           },
           {
             "name": "getBotInfo",
-            "description ": "Get a string with the name of the bot, format: Username"
+            "description": "Get a string with the name of the bot, format: Username"
           }
         ]
       },
