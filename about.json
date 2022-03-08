@@ -6,49 +6,16 @@
     "current_time": 1531680780,
     "services": [
       {
-        "name": "twitter",
-        "actions": [
+        "name": "new_like",
+        "description": "The user gains a like from one of their messages",
+        "arguments": [
           {
             "name": "new_message_in_group",
-            "description": "A new message is posted in the group",
-            "arguments": [
-              {
-                "name": "1 ",
-                "description": "1-1"
-              },
-              {
-                "name": "2 ",
-                "description": "2-2"
-              }
-            ]
+            "description": "A new message is posted in the group"
           },
           {
             "name": "new_message_inbox",
-            "description": "A new private message is received by the user",
-            "arguments": [
-              {
-                "name": "1",
-                "description": "1-1"
-              },
-              {
-                "name": "2",
-                "description": "2-2"
-              }
-            ]
-          },
-          {
-            "name": "new_like",
-            "description": "The user gains a like from one of their messages",
-            "arguments": [
-              {
-                "name": "new_message_in_group",
-                "description": "A new message is posted in the group"
-              },
-              {
-                "name": "new_message_inbox",
-                "description": "A new private message is received by the user"
-              }
-            ]
+            "description": "A new private message is received by the user"
           }
         ],
         "reactions": [
@@ -279,7 +246,7 @@
             "description ": "Gets a json with all the information of the lastest message"
           }
         ],
-        "reactions ": [
+        "reactions": [
           {
             "name": "sendmessage",
             "description ": "Send a message to the user trough chat",
@@ -302,10 +269,10 @@
       },
       {
         "name": "email",
-        "reactions ": [
+        "reactions": [
           {
             "name": "send",
-            "description ": "Send an email",
+            "description": "Send an email",
             "arguments": [
               {
                 "name": "receivers",
