@@ -235,6 +235,41 @@
             ]
           }
         ]
+      },
+      {
+        "name": "github",
+        "actions": [
+          {
+            "name": "newFollower",
+            "description": "the user has a new follower"
+          },
+          {
+            "name": "newRepo",
+            "description": "the user has created a new repo"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "createRepo",
+            "description": "the user creates a repo",
+            "arguments": [
+              {
+                "name": "repo_name",
+                "description": "the name of the new repo"
+              }
+            ]
+          },
+          {
+            "name": "followUser",
+            "description": "the users follows another user",
+            "arguments": [
+              {
+                "name": "username",
+                "description": "username to follow"
+              }
+            ]
+          }
+        ]
       }
     ]
   }
