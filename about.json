@@ -6,60 +6,6 @@
     "current_time": 1531680780,
     "services": [
       {
-        "name": "new_like",
-        "description": "The user gains a like from one of their messages",
-        "arguments": [
-          {
-            "name": "new_message_in_group",
-            "description": "A new message is posted in the group"
-          },
-          {
-            "name": "new_message_inbox",
-            "description": "A new private message is received by the user"
-          }
-        ],
-        "reactions": [
-          {
-            "name": "tweet",
-            "description": "Post a tweet",
-            "arguments": [
-              {
-                "name": "message",
-                "description": "The message to be posted"
-              }
-            ]
-          },
-          {
-            "name": "find",
-            "description": "Find a tweet",
-            "arguments": [
-              {
-                "name": "new_message_in_group",
-                "description": "A new message is posted in the group"
-              },
-              {
-                "name": "new_message_inbox",
-                "description": "A new private message is received by the user"
-              }
-            ]
-          },
-          {
-            "name": "add_user_to_list",
-            "description": "Add a user to a list",
-            "arguments": [
-              {
-                "name": "new_message_in_group",
-                "description": "A new message is posted in the group"
-              },
-              {
-                "name": "new_message_inbox",
-                "description": "A new private message is received by the user"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "intranet",
         "actions": [
           {
