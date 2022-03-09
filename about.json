@@ -5,241 +5,241 @@
   "server": {
     "current_time": 1531680780,
     "services": [
-        {
-          "name": "intranet",
-          "actions": [
-            {
-              "name": "timeLeft",
-              "description": "the user has less than h hour to finish the project",
-              "arguments": [
-                {
-                  "name": "project_name",
-                  "description": "The project name"
-                },
-                {
-                  "name": "time_left",
-                  "description": "Time in hours to remind you of the"
-                }
-              ]
-            },
-            {
-              "name": "grades",
-              "description": "the user has the garde of a module x uploaded",
-              "arguments": [
-                {
-                  "name": "module_code",
-                  "description": "The code of the module"
-                }
-              ]
-            },
-            {
-              "name": "modules",
-              "description": "there is a new module available"
-            }
-          ],
-          "reactions": [
-            {
-              "name": "registerProject",
-              "description": "the user registers to a project",
-              "arguments": [
-                {
-                  "name": "module_code",
-                  "description": "The code of the module"
-                },
-                {
-                  "name": "proect_name",
-                  "description": "The name of the project to register"
-                }
-              ]
-            },
-            {
-              "name": "registerModule",
-              "description": "the user registers to a module",
-              "arguments": [
-                {
-                  "name": "module_code",
-                  "description": "The code of the module"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "spotify",
-          "actions": [
-            {
-              "name": "getPlaylist",
-              "description": "a new playlist is saved/created"
-            },
-            {
-              "name": "getTracks",
-              "description": "a new track is saved in playlist"
-            },
-            {
-              "name": "getNewPlaylistTrack",
-              "description": "a new track is saved in playlist",
-              "arguments": [
-                {
-                  "name": "playlist",
-                  "description": "playlist name to check"
-                }
-              ]
-            }
-          ],
-          "reactions": [
-            {
-              "name": "createPlaylist",
-              "description": "the user creates a new playlist",
-              "arguments": [
-                {
-                  "name": "playlist",
-                  "description": "new playlist name"
-                }
-              ]
-            },
-            {
-              "name": "saveTrack",
-              "description": "the user saves a track into his library",
-              "arguments": [
-                {
-                  "name": "trackname",
-                  "description": "Track you want to save"
-                },
-                {
-                  "name": "Author",
-                  "description": "Track author"
-                }
-              ]
-            },
-            {
-              "name": "saveTrackPlaylist",
-              "description": "the user saves a track into playlist",
-              "arguments": [
-                {
-                  "name": "trackname",
-                  "description": "Track you want to save"
-                },
-                {
-                  "name": "author",
-                  "description": "Track author"
-                },
-                {
-                  "name": "playlist",
-                  "description": "Playlist name "
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "github",
-          "actions": [
-            {
-              "name": "newFollower",
-              "description": "the user has a new follower"
-            },
-            {
-              "name": "newRepo",
-              "description": "the user has created a new repo"
-            }
-          ],
-          "reactions": [
-            {
-              "name": "createRepo",
-              "description": "the user creates a repo",
-              "arguments": [
-                {
-                  "name": "repo_name",
-                  "description": "the name of the new repo"
-                }
-              ]
-            },
-            {
-              "name": "followUser",
-              "description": "the users follows another user",
-              "arguments": [
-                {
-                  "name": "username",
-                  "description": "username to follow"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "telegram",
-          "actions": [
-            {
-              "name": "getMessage",
-              "description": "Gets a json with all the information of the lastest message"
-            }
-          ],
-          "reactions": [
-            {
-              "name": "sendmessage",
-              "description": "Send a message to the user trough chat",
-              "arguments": [
-                {
-                  "name": "message",
-                  "description": "The message to send"
-                }
-              ]
-            },
-            {
-              "name": "getUserInfo",
-              "description": "Get a string with some information about the user, format: Name SecondName Username"
-            },
-            {
-              "name": "getBotInfo",
-              "description": "Get a string with the name of the bot, format: Username"
-            }
-          ]
-        },
-        {
-          "name": "gmail",
-          "actions": [
-            {
-              "name": "getMessage",
-              "description": "Get all the messages from the email"
-            }
-          ],
-          "reactions": [
-            {
-              "name": "createLabel",
-              "description": "create a label for gmail",
-              "arguments": [
-                {
-                  "name": "label_name",
-                  "description": "The name of label"
-                }
-              ]
-            }
-          ]
-        },
-        {
-            "name": "reddit",
-          "actions": [
-            {
-                "name": "getFriendInformation",
-                "description": "Get new friends information",
-                "arguments": [
-                  {
-                    "name": "user",
-                    "description": "The username of the user friends"
-                  },
-                ]
-              ]  
-            },
-            {
-                "name": "getSubmissions",
-                "description": "Get submissions of the user",
-                "arguments": [
-                  {
-                    "name": "user",
-                    "description": "The username of the friend"
-                  },
-                ]
-            }],
+      {
+        "name": "intranet",
+        "actions": [
+          {
+            "name": "timeLeft",
+            "description": "the user has less than h hour to finish the project",
+            "arguments": [
+              {
+                "name": "project_name",
+                "description": "The project name"
+              },
+              {
+                "name": "time_left",
+                "description": "Time in hours to remind you of the"
+              }
+            ]
+          },
+          {
+            "name": "grades",
+            "description": "the user has the garde of a module x uploaded",
+            "arguments": [
+              {
+                "name": "module_code",
+                "description": "The code of the module"
+              }
+            ]
+          },
+          {
+            "name": "modules",
+            "description": "there is a new module available"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "registerProject",
+            "description": "the user registers to a project",
+            "arguments": [
+              {
+                "name": "module_code",
+                "description": "The code of the module"
+              },
+              {
+                "name": "proect_name",
+                "description": "The name of the project to register"
+              }
+            ]
+          },
+          {
+            "name": "registerModule",
+            "description": "the user registers to a module",
+            "arguments": [
+              {
+                "name": "module_code",
+                "description": "The code of the module"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "spotify",
+        "actions": [
+          {
+            "name": "getPlaylist",
+            "description": "a new playlist is saved/created"
+          },
+          {
+            "name": "getTracks",
+            "description": "a new track is saved in playlist"
+          },
+          {
+            "name": "getNewPlaylistTrack",
+            "description": "a new track is saved in playlist",
+            "arguments": [
+              {
+                "name": "playlist",
+                "description": "playlist name to check"
+              }
+            ]
+          }
+        ],
+        "reactions": [
+          {
+            "name": "createPlaylist",
+            "description": "the user creates a new playlist",
+            "arguments": [
+              {
+                "name": "playlist",
+                "description": "new playlist name"
+              }
+            ]
+          },
+          {
+            "name": "saveTrack",
+            "description": "the user saves a track into his library",
+            "arguments": [
+              {
+                "name": "trackname",
+                "description": "Track you want to save"
+              },
+              {
+                "name": "Author",
+                "description": "Track author"
+              }
+            ]
+          },
+          {
+            "name": "saveTrackPlaylist",
+            "description": "the user saves a track into playlist",
+            "arguments": [
+              {
+                "name": "trackname",
+                "description": "Track you want to save"
+              },
+              {
+                "name": "author",
+                "description": "Track author"
+              },
+              {
+                "name": "playlist",
+                "description": "Playlist name "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "github",
+        "actions": [
+          {
+            "name": "newFollower",
+            "description": "the user has a new follower"
+          },
+          {
+            "name": "newRepo",
+            "description": "the user has created a new repo"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "createRepo",
+            "description": "the user creates a repo",
+            "arguments": [
+              {
+                "name": "repo_name",
+                "description": "the name of the new repo"
+              }
+            ]
+          },
+          {
+            "name": "followUser",
+            "description": "the users follows another user",
+            "arguments": [
+              {
+                "name": "username",
+                "description": "username to follow"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "telegram",
+        "actions": [
+          {
+            "name": "getMessage",
+            "description": "Gets a json with all the information of the lastest message"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "sendmessage",
+            "description": "Send a message to the user trough chat",
+            "arguments": [
+              {
+                "name": "message",
+                "description": "The message to send"
+              }
+            ]
+          },
+          {
+            "name": "getUserInfo",
+            "description": "Get a string with some information about the user, format: Name SecondName Username"
+          },
+          {
+            "name": "getBotInfo",
+            "description": "Get a string with the name of the bot, format: Username"
+          }
+        ]
+      },
+      {
+        "name": "gmail",
+        "actions": [
+          {
+            "name": "getMessage",
+            "description": "Get all the messages from the email"
+          }
+        ],
+        "reactions": [
+          {
+            "name": "createLabel",
+            "description": "create a label for gmail",
+            "arguments": [
+              {
+                "name": "label_name",
+                "description": "The name of label"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "reddit",
+        "actions": [
+          {
+            "name": "getFriendInformation",
+            "description": "Get new friends information",
+            "arguments": [
+              {
+                "name": "user",
+                "description": "The username of the user friends"
+              }
+            ]
+          },
+          {
+            "name": "getSubmissions",
+            "description": "Get submissions of the user",
+            "arguments": [
+              {
+                "name": "user",
+                "description": "The username of the friend"
+              }
+            ]
+          },
+          {
             "reactions": [
               {
                 "name": "submitLink",
@@ -279,6 +279,8 @@
               }
             ]
           }
+        ]
+      }
     ]
   }
 }
