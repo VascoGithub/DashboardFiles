@@ -214,23 +214,21 @@
         ]
       },
       {
-        "name": "email",
+        "name": "gmail",
+        "actions": [
+          {
+            "name": "getMessage",
+            "description": "Get all the messages from the email"
+          }
+        ],
         "reactions": [
           {
-            "name": "send",
-            "description": "Send an email",
+            "name": "createLabel",
+            "description": "create a label for gmail",
             "arguments": [
               {
-                "name": "receivers",
-                "description": "Format is: email@email.com, email@email.com (as many as wanted separated by a coma and a space)"
-              },
-              {
-                "name": "message",
-                "description": "Message string"
-              },
-              {
-                "name": "subject",
-                "description": "Subject of the main, string"
+                "name": "label_name",
+                "description": "The name of label"
               }
             ]
           }
