@@ -228,6 +228,7 @@
                     "description": "The username of the user friends"
                   },
                 ]
+              ]  
             },
             {
                 "name": "getSubmissions",
