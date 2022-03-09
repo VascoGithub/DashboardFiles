@@ -34,13 +34,7 @@
             },
             {
               "name": "modules",
-              "description": "there is a new module available",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "there is a new module available"
             }
           ],
           "reactions": [
@@ -75,23 +69,11 @@
           "actions": [
             {
               "name": "getPlaylist",
-              "description": "a new playlist is saved/created",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "a new playlist is saved/created"
             },
             {
               "name": "getTracks",
-              "description": "a new track is saved in playlist",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "a new track is saved in playlist"
             },
             {
               "name": "getNewPlaylistTrack",
@@ -154,23 +136,11 @@
           "actions": [
             {
               "name": "newFollower",
-              "description": "the user has a new follower",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "the user has a new follower"
             },
             {
               "name": "newRepo",
-              "description": "the user has created a new repo",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "the user has created a new repo"
             }
           ],
           "reactions": [
@@ -201,13 +171,7 @@
           "actions": [
             {
               "name": "getMessage",
-              "description": "Gets a json with all the information of the lastest message",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "Gets a json with all the information of the lastest message"
             }
           ],
           "reactions": [
@@ -223,23 +187,11 @@
             },
             {
               "name": "getUserInfo",
-              "description": "Get a string with some information about the user, format: Name SecondName Username",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "Get a string with some information about the user, format: Name SecondName Username"
             },
             {
               "name": "getBotInfo",
-              "description": "Get a string with the name of the bot, format: Username",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "Get a string with the name of the bot, format: Username"
             }
           ]
         },
@@ -248,13 +200,7 @@
           "actions": [
             {
               "name": "getMessage",
-              "description": "Get all the messages from the email",
-              "arguments": [
-                {
-                  "name": ".",
-                  "description": "."
-                }
-              ]
+              "description": "Get all the messages from the email"
             }
           ],
           "reactions": [
