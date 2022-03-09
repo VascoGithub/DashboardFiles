@@ -218,64 +218,40 @@
       },
       {
         "name": "reddit",
-        "actions": [
+        "reactions": [
           {
-            "name": "getFriendInformation",
-            "description": "Get new friends information",
+            "name": "submitLink",
+            "description": "submit a post with links",
             "arguments": [
               {
-                "name": "user",
-                "description": "The username of the user friends"
-              }
-            ]
-          },
-          {
-            "name": "getSubmissions",
-            "description": "Get submissions of the user",
-            "arguments": [
-              {
-                "name": "user",
-                "description": "The username of the friend"
-              }
-            ]
-          },
-          {
-            "reactions": [
-              {
-                "name": "submitLink",
-                "description": "submit a post with links",
-                "arguments": [
-                  {
-                    "name": "subreddit",
-                    "description": "Add subreddit to the post"
-                  },
-                  {
-                    "name": "title",
-                    "description": "Add title to the post"
-                  },
-                  {
-                    "name": "url",
-                    "description": "Add url to the post"
-                  }
-                ]
+                "name": "subreddit",
+                "description": "Add subreddit to the post"
               },
               {
-                "name": "submitPost",
-                "description": "Submit a post to reddit",
-                "arguments": [
-                  {
-                    "name": "subreddit",
-                    "description": "Add subreddit to the post"
-                  },
-                  {
-                    "name": "title",
-                    "description": "Add title to the post"
-                  },
-                  {
-                    "name": "text",
-                    "description": "Add text to the post"
-                  }
-                ]
+                "name": "title",
+                "description": "Add title to the post"
+              },
+              {
+                "name": "url",
+                "description": "Add url to the post"
+              }
+            ]
+          },
+          {
+            "name": "submitPost",
+            "description": "Submit a post to reddit",
+            "arguments": [
+              {
+                "name": "subreddit",
+                "description": "Add subreddit to the post"
+              },
+              {
+                "name": "title",
+                "description": "Add title to the post"
+              },
+              {
+                "name": "text",
+                "description": "Add text to the post"
               }
             ]
           }
