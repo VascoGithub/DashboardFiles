@@ -218,6 +218,27 @@
         },
         {
             "name": "reddit",
+          "actions": [
+            {
+                "name": "getFriendInformation",
+                "description": "Get new friends information",
+                "arguments": [
+                  {
+                    "name": "user",
+                    "description": "The username of the user friends"
+                  },
+                ]
+            },
+            {
+                "name": "getSubmissions",
+                "description": "Get submissions of the user",
+                "arguments": [
+                  {
+                    "name": "user",
+                    "description": "The username of the friend"
+                  },
+                ]
+            }],
             "reactions": [
               {
                 "name": "submitLink",
